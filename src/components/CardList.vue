@@ -18,7 +18,7 @@
 
     const getCharacters = async (page) => {
         try {
-            const response = await axios.get(`${BASE_URL}/?page=${page}`);
+            const response = await axios.get(`${BASE_URL}/character/?page=${page}`);
             charactersData.value = response.data.results;
         } catch (error) {
             console.error('The request failed: ', error);
@@ -26,7 +26,7 @@
     }
 
     onMounted(() => {
-        getCharacters(0);
+        getCharacters(1);
     })
 
 </script>
