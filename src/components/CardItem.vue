@@ -23,7 +23,7 @@
     const props = defineProps(['character'])
 
     import axios from 'axios';
-    import { ref, onMounted } from "vue";
+    import { ref, onMounted } from 'vue';
 
     const episodeName = ref("unknown");
 

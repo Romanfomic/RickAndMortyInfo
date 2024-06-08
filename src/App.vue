@@ -6,8 +6,8 @@
 </template>
 
 <script setup>
-    import HeaderComponent from '@/components/HeaderComponent.vue';
-    import CardList from '@/components/CardList.vue'
+    import HeaderComponent from './components/HeaderComponent.vue';
+    import CardList from './components/CardList.vue'
 
 </script>
 

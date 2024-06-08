@@ -24,7 +24,7 @@
 </template>
 
 <script setup>
-    import CardItem from '@/components/CardItem.vue';
+    import CardItem from './CardItem.vue';
 
     import axios from 'axios';
     import { BASE_URL } from "../config";
