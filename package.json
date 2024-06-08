@@ -1,7 +1,7 @@
 {
   "name": "rick-and-morty-info",
   "version": "0.0.0",
-  "private": false,
+  "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite",
