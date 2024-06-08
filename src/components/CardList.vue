@@ -150,4 +150,10 @@
         background-color: #2c3e50;
     }
 
+    @media (max-width: 650px) {
+        .filter-section {
+            flex-direction: column;
+        }
+    }
+
 </style>

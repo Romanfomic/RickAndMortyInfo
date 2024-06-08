@@ -89,4 +89,25 @@
         color: gray;
     }
 
+    @media (max-width: 650px) {
+        .card-item {
+            width: 100%;
+        }
+        .card {
+            max-width: 400px;
+            flex-direction: column;
+        }
+        .card img {
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+            order: -1;
+            border-radius: 8px 8px 0 0;
+        }
+        .card-info {
+            flex: none;
+            width: 100%;
+            border-radius: 0 0 8px 8px;
+        }
+    }
 </style>
